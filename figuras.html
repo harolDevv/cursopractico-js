@@ -7,7 +7,35 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es el primer taller</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="" for="InputCuadrado">
+            <label for="">Escribe cuanto mide cada lado de tu cuadrado</label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="CalcularPerimetroCuadrado()">Calcular perimetro</button>
+            <button type="button" onclick="CalcularAreaCuadrado()">Calcular el area</button>    
+        </form>
+        <form action="" for="InputTriangulo">
+            <label for="">Escribe cuanto mide cada lado de tu Triangulo</label>
+            <input id="InputTriangulo1" type="number" placeholder="lado-1">
+            <input id="InputTriangulo2" type="number" placeholder="lado-2">
+            <input id="InputTriangulobase" type="number" placeholder="base">
+            <input id="InputTrianguloAltura" type="number" placeholder="altura">
+            <button type="button" onclick="CalcularPerimetroTriangulo()">Calcular perimetro</button>
+            <button type="button" onclick="CalcularAreaTriangulo()">Calcular el area</button>    
+        </form>
+        <form action="" for="InputCirculo">
+            <label for="">Escribe cuanto mide el radio de tu Circulo</label>
+            <input id="InputCirculo" type="number" placeholder="Radio">
+            <button type="button" onclick="CalcularDiametroCirculo()">Calcular diametro</button>
+            <button type="button" onclick="CalcularPerimetroCirculo()">Calcular el perimetro</button>    
+            <button type="button" onclick="CalcularAreaCirculo()">Calcular el area</button>    
+        </form>
+    </section>
     <script src="./figuras.js"></script>
 </body>
 </html>
