@@ -115,4 +115,23 @@ function CalcularAreaCirculo() {
     alert(area)
 }
 
+//altura triangulo
+
+function Altura(lado1,base) {
+    const baseTRIANGULO = base / 2;
+    const value1 = (lado1**2) - (baseTRIANGULO**2)
+    const alt = Math.sqrt(value1)
+    return alt;
+}
+Altura();
+
+function CalcularAlturaTriangulo() {
+    const InputIsosceles = document.getElementById("InputIsosceles1");
+    const InputIsoscelesbase = document.getElementById("InputIsoscelesbase");
+    const value1 = Number(InputIsosceles.value);
+    const value2 = Number(InputIsoscelesbase.value);
+    const altura = Altura(value1,value2);
+    alert(altura)
+}
+
 
