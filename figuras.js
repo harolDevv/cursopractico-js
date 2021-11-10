@@ -17,14 +17,14 @@ function CalcularPerimetroCuadrado() {
     const input = document.getElementById("InputCuadrado")
     const value = input.value
     const perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+    alert("El perimetro de tu cuadrado es: " + perimetro);
 }
 
 function CalcularAreaCuadrado () {
     const input = document.getElementById("InputCuadrado")
     const value = input.value;
     const area = areaCuadrado(value);
-    alert(area);
+    alert("El area de tu cuadrado es: " + area);
 }
 console.groupEnd();
 
@@ -53,7 +53,7 @@ function CalcularPerimetroTriangulo() {
     const value2 = Number(input2.value)
     const valuebase = Number(input3.value)
     const perimetro = perimetroTriangulo(value1,value2,valuebase);
-    alert(perimetro);
+    alert("El perimetro de tu triangulo es: " + perimetro);
 }
 function CalcularAreaTriangulo() {
     const input3 = document.getElementById("InputTriangulobase")
@@ -61,7 +61,7 @@ function CalcularAreaTriangulo() {
     const valuebase = Number(input3.value)
     const valuealtura = Number(inputalt.value)
     const area = areaTriangulo(valuebase,valuealtura);
-    alert(area);
+    alert("El area de tu triangulo es: " + area);
 }
 console.groupEnd();
 
@@ -99,20 +99,20 @@ function CalcularDiametroCirculo() {
     const inputCir = document.getElementById("InputCirculo")
     const valuecir = Number(inputCir.value)
     const diametro = diametroCirculo(valuecir)
-    alert(diametro)
+    alert("El diametro de tu circulo es: " + diametro)
 }
 function CalcularPerimetroCirculo() {
     const inputCir = document.getElementById("InputCirculo")
     const valuecir = Number(inputCir.value)
     const diametro = diametroCirculo(valuecir)
     const perimetro = diametro * PI
-    alert(perimetro)
+    alert("El perimetro de tu circulo es: " + perimetro)
 }
 function CalcularAreaCirculo() {
     const inputCir = document.getElementById("InputCirculo")
     const valuecir = Number(inputCir.value)
     const area = areaCirculo(valuecir)
-    alert(area)
+    alert("El area de tu circulo es: " + area)
 }
 
 //altura triangulo
@@ -131,7 +131,7 @@ function CalcularAlturaTriangulo() {
     const value1 = Number(InputIsosceles.value);
     const value2 = Number(InputIsoscelesbase.value);
     const altura = Altura(value1,value2);
-    alert(altura)
+    alert("La altura de tu triangulo es: " + altura)
 }
 
 
