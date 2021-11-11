@@ -56,14 +56,48 @@ section form h2{
 section #Cuadrado h2{
     color: var(--blue);
 }
+/* estilos especificos de la altura */
 section #Altura h2{
     color: var(--purple);
 }
+section #Altura input::placeholder{
+    color: var(--purple)
+}
+section #Altura button{
+    background-color: var(--purple);
+}
+section #Altura button:hover{
+    background-color: rgb(110, 26, 110);
+}
+
+/* estilos especifiocs del triangulo */
 section #Triangulo h2{
     color: var(--green);
 }
+
+section #Triangulo input::placeholder{
+    color: var(--green);
+}
+section #Triangulo button{
+    background-color: var(--green);
+}
+section #Triangulo button:hover{
+    background-color: rgb(33, 143, 33)
+}
+
+/* Estilos especificos del circulo */
 section #Circulo h2{
     color: var(--red);
+}
+
+section #Circulo input::placeholder{
+    color: var(--red);
+}
+section #Circulo button{
+    background-color: var(--red);
+}
+section #Circulo button:hover{
+    background-color: rgb(172, 41, 41)
 }
 section form input{
     border: none;
