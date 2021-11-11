@@ -1,10 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
     --blue: rgb(24, 116, 236);
+    --green: rgb(47, 153, 70);
+    --red: rgb(185, 67, 67);
+    --purple: rgb(130, 54, 180);
 }
 
 /* Estilos del header */
@@ -27,6 +31,7 @@ header p{
     font-size: 1.4rem;
     padding: 7px;
     color: rgb(153, 153, 153);
+    font-weight: 500;
 }
 
 /* Estilos generales figuras */
@@ -42,6 +47,23 @@ section #Cuadrado, #Altura,#Triangulo,#Circulo{
     margin: 20px auto;
     padding: 5px;
     box-shadow: 0px 0px 10px gray;
+    border-radius: 3px;
+}
+section form h2{
+    padding: 10px;
+    font-weight: 700;
+}
+section #Cuadrado h2{
+    color: var(--blue);
+}
+section #Altura h2{
+    color: var(--purple);
+}
+section #Triangulo h2{
+    color: var(--green);
+}
+section #Circulo h2{
+    color: var(--red);
 }
 section form input{
     border: none;
