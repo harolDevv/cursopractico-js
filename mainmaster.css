@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    border: none;
+    text-align: center;
+    color: rgb(67, 18, 114);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+section  {
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section a {
+    display: block;
+    width: 290px;
+    min-width: 220px;
+    height: 450px;
+    margin: 20px 9px;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition: transform .3s;
+}
+
+section a:hover{
+    transform: scale(1.02);
+}
+section p{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+section .Figuras {
+    background-image: url("./imagenes/figuras.png");
+    background-size: cover;
+    background-position: center;
+
+}
+section .Precios{
+    background-image: url("./imagenes/precios.png");
+    background-size: cover;
+    background-position: center;
+}
+section .Aritmetica {
+    background-image: url("./imagenes/aritmetico.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}

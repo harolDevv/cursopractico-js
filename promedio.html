@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herramientas aritmeticas</title>
     <link rel="stylesheet" href="./main2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,900;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Calcula la moda, media y mediana </h1>
+    <header>
+        <h1>Herramientas Aritmeticas</h1>
+        <a href="./index.html">Home <3</a>
+        <p>Calcula la Media, Mediana y Moda de la lista que tu desees </p>
+    </header>
     <form action="">
-        <input id="inputM" type="text" placeholder="x,x,x,x" >
-        <button type="button" onclick="CalcularMediab()">Calcular Media</button>
-        <button type="button" onclick="CalcularMedianab()">Calcular Mediana</button>
-        <button type="button" onclick="CalcularModab()">Calcular Moda</button>
+        <p class="title"> Por favor los numeros de tu lista deben estar ordenados por comas, como en el ejemplo :)</p>
+        <input id="inputM" type="text" placeholder="x,x,x,x,x,x,x" >
+        <div class="buttons-container">
+            <button type="button" onclick="CalcularMediab()">Calcular Media</button>
+            <button type="button" onclick="CalcularMedianab()">Calcular Mediana</button>
+            <button type="button" onclick="CalcularModab()">Calcular Moda</button>
+        </div>
         <p id="ResultP"></p>
     </form>
     <script src="./promedio.js"></script>

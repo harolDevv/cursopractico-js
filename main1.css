@@ -18,6 +18,13 @@ header{
     color: var(--purple);
 }
 
+header a{
+    text-decoration: none;
+    color: rgb(10, 125, 255);
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(10, 125, 255);
+}
+
 header p{
     color: gray;
     font-weight: 500;
